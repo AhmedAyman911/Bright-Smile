@@ -1,0 +1,39 @@
+body
+{
+    background-image:url(doctors\ photo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: 80%;
+}
+.f
+{
+    font-size: 21px;
+    color: #0a679c;
+}
+.ff
+{
+    font-size: 18px;
+    color:rgb(60, 159, 196);
+}
+#bo
+{
+    border: none;
+    outline: none;
+    height: 25px;
+    border-radius: 15px;
+    background: #0a679c;
+    color: white;
+    font-size: 21px;
+    cursor: pointer;
+}
+#bo:hover 
+{
+    background-color: red;
+}
+#d
+{
+    color:rgb(60, 159, 196);
+    text-align:left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3%;
+}

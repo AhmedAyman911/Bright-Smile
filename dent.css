@@ -1,0 +1,238 @@
+body
+{
+      font-size: 20px;
+	background-color: rgb(255, 255, 255);
+}
+/*el label eli fo2 "dental clinic"*/
+#label
+{
+    font-size: 30px;
+    font-style: italic;
+    color:rgb(42, 58, 165);
+    position: absolute;
+    top: 20px;
+    left:30px;
+     height: 650px;
+    width: 1500px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 15px;
+    left:525px;
+    color:rgb(42, 87, 165);
+  }
+  li{
+    float: left;
+}
+  li a,.dropbtn {
+    display: inline-block;
+    color:rgb(42, 93, 165);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover, .dropdown:hover .dropbtn  {
+    background-color:rgb(142, 186, 221);
+  }
+  .image
+  {
+    display: block;
+    position: absolute;
+    top: 70px;
+    left:550px;
+    width: 980px;
+    height:675px;
+  }
+  #klamkber
+  {
+    position: absolute;
+    top: 275px;
+    left:500px;
+    color:rgb(27, 109, 191);
+    font-size:320%;
+    font-style:bold;
+    font-weight: 900;
+  }
+  #klamkber2
+  {
+    position: absolute;
+    top: 275px;
+    left:950px;
+    color:rgb(27, 109, 191);
+    font-size:320%;
+    font-style:bold;
+    font-weight: 900
+  }
+  
+  .button4{
+    border-radius: 12px;
+    position: absolute;
+    top: 400px;
+    left:900px;
+    background-color: rgb(48, 48, 189);
+    font-size: large;
+    color:white;
+    padding: 7px 100px;
+  }
+  #call
+  {
+    position: absolute;
+    top: 480px;
+    left:460px;
+    color:rgb(21, 85, 181);
+    font-size:85%;
+    font-style:bold;
+    
+  }
+  .button3{
+    border-radius: 12px;
+    position: absolute;
+    top: 25px;
+    left:1400px;
+    background-color: rgb(48, 48, 189);
+    font-size: large;
+    color:white;
+    padding: 2px 3px;
+  }
+  .container {
+    position: relative;
+  }
+  .overlay {
+    position: absolute;
+    top: 62px;
+    left:543px;
+    height: 675px;
+    width: 980px;
+    opacity: 0;
+    transition: 2s ease;
+    background-color: #a9beeb;
+  }
+  .container:hover .overlay {
+    opacity: 0.70;
+  }
+  .text {
+    color: black;
+  
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .loc{
+    width:20px;
+    height:30px;
+  }
+  #location
+  {
+    position: absolute;
+    top: 100px;
+    left:40px;
+    font-size: 175%;
+    font-style: italic;
+    color:#4b799a;
+    display: block;
+    background-color: rgb(210, 233, 247);
+  }
+  .loc{
+    position: absolute;
+    top: 105px;
+    left:2px;
+    font-size: larger;
+    font-style: italic;
+    color:#4b799a;
+  }
+#makan
+{
+    position: absolute;
+    top: 170px;
+    left:10px;
+    font-size: larger;
+    font-style: italic;
+    color:#070707;
+}
+.contact{
+    position: absolute;
+    top: 245px;
+    left:10px;
+    width:20px;
+    height:30px;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    position: absolute;
+    
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #0064ab;
+    color: white;
+    top: 380px;
+    left:10px;
+  }
+  .fa-instagram {
+    background: #0064ab;
+    color: white;
+    top: 380px;
+    left:125px;
+  }
+  #kalmona
+  {
+    position: absolute;
+    top: 240px;
+    left:45px;
+    font-size: 175%;
+    font-style: italic;
+    color:#4b799a;
+    display: block;
+    background-color:rgb(210, 233, 247);
+  }
+  #details
+  {
+    position: absolute;
+    top: 295px;
+    left:10px;
+    font-size: larger;
+    font-style: italic;
+    color:#080807;
+  }
+  .time{
+    position: absolute;
+    top: 490px;
+    left:10px;
+    width:30px;
+    height:30px;
+  }
+  #det
+  {
+    position: absolute;
+    top: 530px;
+    left:10px;
+    font-size: larger;
+    font-style: italic;
+    color:#030303;
+  }
+  #Times
+  {
+    position: absolute;
+    top: 490px;
+    left:45px;
+    font-size: 175%;
+    font-style: italic;
+    color:#4b799a;
+    display: block;
+    background-color: rgb(210, 233, 247);
+  }
